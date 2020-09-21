@@ -6,7 +6,6 @@ import java.util.Collection;
 /*@author Ernst Melias
  *  Custom arraylist implementation.
  *  https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html
- *  https://www.youtube.com/watch?v=L1a8R9nkJ4w
  */
 public class ArrayListCus<T> {
  private  int size = 0;
