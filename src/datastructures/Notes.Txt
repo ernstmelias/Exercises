@@ -1,0 +1,126 @@
+Contiguous- allocated structures that are comprised as a single
+slab of memory henceforth are placed closed together.
+Linked - allocated structures comprised of distinct chunks of memory
+henceforth can be at separate locations in in virtual memory with references
+to other members. 
+
+Contiguous
+-------
+Arrays
+Matrices
+heaps
+hash tables
+
+Linked Data Structures
+----------------------
+lists
+trees
+graphs
+
+Advantages of Contiguous Arrays
+-------------------------------
+Constant Time Access - Because each index maps to a specific memory address.
+Space Efficiency 
+Arrays contain only data and have little overhead.
+Memory Locality
+--------------
+Because array elements are close together makes it easier to iterating through its elements
+and helps exploit high speed of cache memory.
+
+ArrayList
+---------
+Advantages:
+Gives you the advantage of having array that can increase in size.
+Disadvantages:
+1. Underlying data structure reziable array
+2. duplicates are allowed
+3. insertion order is preserved
+4. Heterogenous objects are allowed
+5. TreeSet and Treemap are not heterogenous objects are not allowed because they have
+to be ordered so compare is neceassry.
+6. null is possible
+7. When increasing the size of an arraylist the formula is
+= (ccurent capacty x 3/2) +1 
+
+Collections = any data structure that can be hold to data
+All collections class implements serializable interface to provide support
+to transfer data across networks.
+All collection class implements clonable  interface to provide support for 
+post transfer operations so original collection is not affected.
+
+Only ArrayList amd Vector
+------------------------
+implement random access interface. Can access any element
+with the same speed.
+- If a the requirement is retrieval Arrayist and Vectors are good choices
+random access interface does not contain any methods it is a marker interface.
+Marker interface - empty interface.
+
+Best time to Use ArrayList
+- retrieval
+
+Worst time to Use ArrayList
+- insert in the middle 0(n)
+- delete in middle  0(n)
+
+
+Linked Lists
+------------
+- pointers represent addresses in memory.
+- properties all pointers share each contain a data field. 
+- The list the simplest linked structure: operatins support by all list include
+insertion, searching, and deletion. 
+- In doubly-linked each node points the predecessor and successor node.
+- linked list searching can be recursive or iterative
+ArrayList vs Linked List
+------------------------
+- Insertions & deletion in the middle linkedlist is the best choice
+- With large items moving nodes are easier than moving the items themselves.
+- linkedlist is a bad a choice if searching (retrieval) is a heavy requirement
+ since it O(n) it has traverse link.
+ 
+ 1. double linked list underlying structure
+ 2. insertion order preserved
+ 3. duplicates allowed
+ 4. heterogenous allowed
+ 5. null is possible
+ 6. all collections implement seriazalbe and clonable
+ 7. only arraylist and vector implement random access 
+ 
+ ArrayList vs LinkedList
+ ------------------------
+ get for retrieval | best choice insertion or delection in middle
+ worst for insertion | worst choice retrieval
+ delection in middle 
+ resizable array  | doubly linkedlist
+ randomaccess | sequential access 
+ containers allow for storage and retrieveal regardless of data type.
+ containers re described by the order they store.
+Stack
+------
+LIFO
+- underlying data structures can be arrays or linkedist
+- push, pop, peek, remove from a stack
+stacks are good when last item is needed
+- when retrieval order doesn't matter a good choice since efficient 
+Queues
+------
+FIFO
+same underlying data structures as stacks
+used when order is imporatnt 
+- enqueue dequeue
+Dictionaries
+------------
+- allows access of data by content
+search, inser, delect,
+
+Binary Search Trees
+--------------------
+order preserved
+leftmost min
+rightmost max
+inorder, preorder, post order traversal
+
+
+
+ 
