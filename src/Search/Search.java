@@ -1,4 +1,4 @@
-package datastructures;
+package Search;
 
 public class Search {
 	// assumes that the list is ordered

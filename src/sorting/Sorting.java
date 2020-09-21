@@ -1,4 +1,4 @@
-package datastructures;
+package sorting;
 
 public class Sorting {
 	public static int [] bubbleSort(int []a )

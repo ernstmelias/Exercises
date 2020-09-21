@@ -3,7 +3,7 @@ package mit6092;
 import java.util.Arrays;
 import java.util.List;
 
-import datastructures.Sorting;
+import sorting.Sorting;
 
 public class Marathon {
 

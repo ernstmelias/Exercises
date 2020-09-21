@@ -3,16 +3,16 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
+import Search.Search;
 import datastructures.Solution;
-import datastructures.Sort;
 import mit6092.FooCorporation;
 import mit6092.GravityCalculator;
 import mit6092.Marathon;
-import datastructures.LeetCode;
-import datastructures.Logger;
-import datastructures.MergeSort;
-import datastructures.QuickSort;
-import datastructures.Search;
+import problems.LeetCode;
+import problems.Logger;
+import sorting.MergeSort;
+import sorting.QuickSort;
+import sorting.Sort;
 
 public class MainTester {
 	

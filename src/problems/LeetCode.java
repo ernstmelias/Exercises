@@ -1,4 +1,4 @@
-package datastructures;
+package problems;
 
 import java.util.HashSet;
 import java.util.List;
